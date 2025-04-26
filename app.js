@@ -97,15 +97,14 @@ function calculateBalance(transactionIndex) {
 }
 
 function clearInput() {
-  document.getElementById("amount").value = ""; // Reset input field to empty string
+  document.getElementById("amount").value = ""; 
 }
 function clearTransactionHistory() {
-    // Reset all variables to initial values
     totalIncome = 0;
     totalExpenditure = 0;
     transactions = [];
   
-    // Update summary and transaction history
+   
     updateSummary();
     updateTransactionHistory();
   }
